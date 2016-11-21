@@ -5,9 +5,6 @@
 var gulp=require('gulp'),
     sass=require('gulp-sass');
 
-gulp.task('test',function(){
-    console.log('test');
-});
 
 gulp.task('sass',function(){
     return gulp.src('scss/**/style.scss')
